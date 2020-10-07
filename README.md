@@ -6,9 +6,9 @@
 <details>
   <summary>SWAT Analyse</summary>
   <br>
-  hier sollte ein Bild kommen
   
   ![SWAT Image](SWAT.png)
+  <img src="SWAT.png" class="img-responsive" alt="">
   
   <br>
   </details>
