@@ -7,7 +7,6 @@
   <summary>SWAT Analyse</summary>
   <br>
   
-  ![SWAT Image](SWAT.png)
   <img src="SWAT.png" class="img-responsive" alt="">
   
   <br>
