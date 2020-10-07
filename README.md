@@ -1,4 +1,13 @@
 # Interactive Design Course
 
+---
+
 ## Task 00
-![Swat](SWAT.png)
+<details>
+  <summary>SWAT Analyse</summary>
+  <br>
+  ![Swat](SWAT.png)
+  <br>
+  </details>
+
+---
