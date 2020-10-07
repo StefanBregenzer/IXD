@@ -7,7 +7,7 @@
   <summary>SWAT Analyse</summary>
   <br>
   
-  ![Swat](SWAT.png)
+  ![SWAT Image](SWAT.png)
   
   <br>
   </details>
