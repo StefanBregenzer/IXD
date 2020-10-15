@@ -40,14 +40,16 @@
   11. Gewünschtes Material?<br>
   <br>
 
-  <b>Define:</b> Es wird ein Zweitgeldbeutel gebraucht, der extrem reduziert ist. Der neue Geldbeutel wird nur zum Saufen gehen verwendet und sollte daher möglichst wenige Karten und nur minimal Geld beinhalten. Dabei sollte er besonders klein sein, sodass er nicht stört und sicher verstaut, sodass er nicht verloren geht.
+  <b>Define:</b>
+  <br>
+  Es wird ein Zweitgeldbeutel gebraucht, der extrem reduziert ist. Der neue Geldbeutel wird nur zum Saufen gehen verwendet und sollte daher möglichst wenige Karten und nur minimal Geld beinhalten. Dabei sollte er besonders klein sein, sodass er nicht stört und sicher verstaut, sodass er nicht verloren geht.
   <br>
   <i>Wünsche:</i> Hordelogo, NFC-Schutz.
   <br>
   <br>
 
   <b>Ideate</b>
-
+  <br>
   Möglichst kleine, unauffällige Methoden genug Geld für einen Abend sicher zu verstauen:
 
   <img src="Task_01/Ideas.jpg" class="img-responsive" alt="">
