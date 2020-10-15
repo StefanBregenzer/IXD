@@ -69,9 +69,8 @@
   <b>Test/Feedback:</b>
   <br>
   Gutes Gesamtkonzept.<br> Sehr schön schmal.<br> Spezialpapier sehr gut, da modern.<br>
-  WoW-Icon sollte ein Horde-Icon sein.
+  WoW-Icon sollte ein Horde-Icon sein.<br>
   
-  <br>
   <br>
 
   <b>Prototype Iteration</b>
