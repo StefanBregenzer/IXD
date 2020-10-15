@@ -20,23 +20,23 @@
   <summary>Wallet Project</summary>
   <br>
 
-  ### Geldbeutel für Ben Ruff
+  <h3>Geldbeutel für Ben Ruff</h3>
 
   <br>
 
-  **Interview**
+  <b>Interview</b>
 
-  *Bisheriger Geldbeutel:* Dicker Ledergeldbeutel, der in einer vorderen Hosentasche getragen wird.
+  <i>Bisheriger Geldbeutel:</i> Dicker Ledergeldbeutel, der in einer vorderen Hosentasche getragen wird.
   <br>
   <br>
-  *Ergebnis:* Es wird ein Zweitgeldbeutel gebraucht, der extrem reduziert ist. Der neue Geldbeutel wird nur zum Saufen gehen verwendet und sollte daher möglichst wenige Karten und nur minimal Geld beinhalten. Dabei sollte er besonders klein sein, sodass er nicht stört und sicher verstaut, sodass er nicht verloren geht.
+  <i>Ergebnis:</i> Es wird ein Zweitgeldbeutel gebraucht, der extrem reduziert ist. Der neue Geldbeutel wird nur zum Saufen gehen verwendet und sollte daher möglichst wenige Karten und nur minimal Geld beinhalten. Dabei sollte er besonders klein sein, sodass er nicht stört und sicher verstaut, sodass er nicht verloren geht.
   <br>
   <br>
-  *Wünsche:* Hordelogo, NFC-Schutz.
+  <i>Wünsche:</i> Hordelogo, NFC-Schutz.
   <br>
   <br>
 
-  **Ideenfindung**
+  <b>Ideenfindung</b>
 
   Möglichst kleine, unauffällige Methoden genug Geld für einen Abend sicher zu verstauen:
 
@@ -45,7 +45,7 @@
   <br>
   <br>
 
-  *Finalisierung einer Idee:*
+  <i>Finalisierung einer Idee:</i>
   <br>
   Geldbeutel aus Spezialpapier in der Größe einer Geldkarte. Aufklappbar(Magnetstreifen zum Schließen), um so dünn wie möglich zu sein. Platz für 2 Münzen für eventuelles Rückgeld. Ohne Münzen dünn genug um ihn in einer Handyhülle zu verstauen.
 
@@ -54,7 +54,7 @@
   <br>
   <br>
 
-  **Prototyp**
+  <b>Prototyp</b>
 
   <img src="Task_01/IMG1.jpg" class="img-responsive" alt="">
   <img src="Task_01/IMG2.jpg" class="img-responsive" alt="">
