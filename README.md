@@ -66,7 +66,7 @@
   
   <b>Test/Feedback:</b>
   <br>
-  Gutes Gesamtkonzept. Spezialpapier sehr gut, da modern.
+  Gutes Gesamtkonzept. Sehr schön schmal. Spezialpapier sehr gut, da modern.
   WoW-Icon sollte ein Horde-Icon sein.
   
 
