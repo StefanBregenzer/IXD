@@ -63,7 +63,7 @@
   <img src="Task_01/IMG5.jpg" class="img-responsive" alt="">
   <img src="Task_01/IMG6.jpg" class="img-responsive" alt="">
 
-</detais>
+</details>
 <br>
 
 ---
