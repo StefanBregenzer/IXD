@@ -1,8 +1,5 @@
 ## Task #01
 <br>
-  <summary>Wallet Project</summary>
-  <br>
-
   <h3>Geldbeutel für Ben Ruff</h3>
 
   <br>
