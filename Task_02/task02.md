@@ -9,7 +9,7 @@
   
   <b>Briefing</b>
   <br>
-  <code>Our management receives all relevant data of our plants (Werke) from controlling as an excel file. 
+  Our management receives all relevant data of our plants (Werke) from controlling as an excel file. 
   Our secretary processes this excel data to diagrams and copies the excel file on our big touch screen in the main conference room for daily meetings. 
   We need a contemporary solution! A sophisticated, interactive presentation system of our production figures for discussions. 
   The excel file provides the following information: 
@@ -17,7 +17,7 @@
   the reject rates (Ausschuss), 
   costs for wearing parts (Kosten für Verschleißteile) and 
   sickness notifications of employees. 
-  We get this data from all three plants every day at 10:00 p.m. (Note: screen resolution: FullHD)</code>
+  We get this data from all three plants every day at 10:00 p.m. (Note: screen resolution: FullHD)
   <br>
   <br>
   
