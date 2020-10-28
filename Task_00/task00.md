@@ -4,7 +4,7 @@
   <summary>SWOT Analyse</summary>
   <br>
   
-  <img src="Task_00/SWOT.png" class="img-responsive" alt="">
+  <img src="SWOT.png" class="img-responsive" alt="">
   
   <br>
 <br>
