@@ -41,6 +41,7 @@
   - Gesamtübersicht
   - Übersicht für einzelne Werke
   - Übersicht für einzelne Daten
+  - Anzeige über unterschiedliche Zeiträume
   <br>
   
   Navigation:
@@ -64,3 +65,19 @@
   Ihr Browser kann dieses Video nicht wiedergeben.<br/>
   Sie können es <a href="preview.mp4">hier</a> abrufen.
   </video>
+  <br>
+  <br>
+  Übersicht über alle Seiten
+  <img src="Pages.PNG" class="img-responsive" alt="">
+  <br>
+  <br>
+  Einstellung des gewünschten Zeitraums
+  <img src="timescale.PNG" class="img-responsive" alt="">
+  <br>
+  <br>
+  Home Button
+  <img src="homebutton.PNG" class="img-responsive" alt="">
+  <br>
+  <br>
+  Zurück Button
+  <img src="backbutton.PNG" class="img-responsive" alt="">
