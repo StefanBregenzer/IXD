@@ -56,4 +56,11 @@
   <br>
   <br>
   
-  
+  <b>Medium/High-Fid</b>
+  <br>
+  <br>
+  <video controls loop>
+      <source src="preview.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+  Sie können es <a href="preview.mp4">hier</a> abrufen.
+  </video>
