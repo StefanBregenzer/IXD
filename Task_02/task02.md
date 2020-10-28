@@ -67,17 +67,17 @@
   </video>
   <br>
   <br>
-  Übersicht über alle Seiten
+  Übersicht über alle Seiten<br>
   <img src="Pages.PNG" class="img-responsive" alt="">
   <br>
   <br>
-  Einstellung des gewünschten Zeitraums
+  Einstellung des gewünschten Zeitraums<br>
   <img src="timescale.PNG" class="img-responsive" alt="">
   <br>
   <br>
-  Home Button
+  Home Button<br>
   <img src="homebutton.PNG" class="img-responsive" alt="">
   <br>
   <br>
-  Zurück Button
+  Zurück Button<br>
   <img src="backbutton.PNG" class="img-responsive" alt="">
