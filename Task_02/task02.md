@@ -37,4 +37,14 @@
   <b>Ideate</b>
   <br>
   <br>
+  Sinvolle Gruppierung der Daten:
+  - Gesamtübersicht
+  - Übersicht für einzelne Werke
+  - Übersicht für einzelne Daten
+  <br>
+  <br>
+  
+  <b>Low-Fid</b>
+  <br>
+  <br>
   <img src="Skizze.png" class="img-responsive" alt="">
