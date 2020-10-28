@@ -42,6 +42,11 @@
   - Übersicht für einzelne Werke
   - Übersicht für einzelne Daten
   <br>
+  
+  Navigation:
+  - Home
+  - Zurück
+  <br>
   <br>
   
   <b>Low-Fid</b>
