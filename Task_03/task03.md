@@ -28,6 +28,7 @@
   - aktuelle Veränderungen
   - Gesamtübersichten
   <br>
+  <br>
   <i>Sekundäre Informationen:</i><br>
   - Detailierte Datenverläufe
   <br>
@@ -80,6 +81,7 @@
   <i>Primäre Informationen:</i>
   - detailierte Daten
   - Werkspezifische Daten
+  <br>
   <br>
   <i>Sekundäre Informationen:</i><br>
   - Gesamtübersichten
