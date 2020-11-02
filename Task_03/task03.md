@@ -57,7 +57,7 @@
   <br>
   <br>
   Differenz Übersicht<br>
-  <img src="Tables Plant A.png" class="img-responsive" alt="">
+  <img src="RR.png" class="img-responsive" alt="">
   <br>
   <br>
   <h3>Tablet</h3>
