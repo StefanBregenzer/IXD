@@ -8,7 +8,7 @@
   Anpassen eines bisherigen Screens an das Material Design von Google.<br>
   <br>
   <b>Bisheriger Screen</b><br>
-  <img src="TabletMaterialDesign.png" class="img-responsive" alt="">
+  <img src="BisherigerScreen.png" class="img-responsive" alt="">
   <br>
   <br>
   
