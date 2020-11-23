@@ -5,14 +5,16 @@ window.addEventListener("load", function () {
     indexes:["hello","good morning","hey"], // These spoken words will trigger the execution of the command
     action:function(){ // Action to be executed when a index match with spoken word
         artyom.say("Hey buddy ! How are you today?");
+        console.log("commandHello");
         }
     };
     
     var commandAufgabe = {
-        indexed: ["erstelle Aufgabe *"],
+        indexed: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *"],
         smart: true,
         action: function(i,wildcard){
             artyom.say("Neue Aufgabe wird erstellt: " + wildcard);
+            console.log("Aufgabe " + wildcard + " wurde erstellt.");
         }
     };
             
