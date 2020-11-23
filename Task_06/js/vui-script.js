@@ -10,11 +10,11 @@ window.addEventListener("load", function () {
     };
     
     var commandAufgabe = {
-        indexed: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *"],
+        indexed: ["create task *","need task *","create the task *"],
         smart: true,
         action: function(i,wildcard){
-            artyom.say("Neue Aufgabe wird erstellt: " + wildcard);
-            console.log("Aufgabe " + wildcard + " wurde erstellt.");
+            artyom.say("The new task " + wildcard + " has been created");
+            console.log("Task " + wildcard + " has been created.");
         }
     };
             
