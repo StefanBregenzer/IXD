@@ -171,7 +171,7 @@ var commandGroup = [
                     //Essen wird entfernt
                     essen.forEach(function(item, index, array){
                         if(item == hinzu){
-                            var removedItems = inhalt.splice(index, 1);
+                            var removedItems = essen.splice(index, 1);
                             artyom.say("Das Essen " + hinzu + " wurde aus dem Kühlschrank entfernt.");
                         }
                     essen.forEach(function(item, index, array){console.log(item, index);});
@@ -181,7 +181,7 @@ var commandGroup = [
                     //Trinken wird entfernt
                     trinken.forEach(function(item, index, array){
                         if(item == hinzu){
-                            var removedItems = inhalt.splice(index, 1);
+                            var removedItems = trinken.splice(index, 1);
                             artyom.say("Das Getränk " + hinzu + " wurde aus dem Kühlschrank entfernt.");
                         }
                     trinken.forEach(function(item, index, array){console.log(item, index);});
