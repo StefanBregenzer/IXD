@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
         indexes: ["erstelle Aufgabe *"],
         smart: true,
         action: function (i, wildcard) {
-            console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            artyom.say("Neue Aufgabe wird erstellt: " + wildcard);
         }
     });
     function startContinuousArtyom() {
