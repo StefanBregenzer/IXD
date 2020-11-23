@@ -130,7 +130,23 @@ var commandGroup =
                 }
                 inhalt.forEach(function(item, index, array){console.log(item, index);});
             });
-            artyom.say("Handelt es sich um etwas zu essen oder zu trinken?");
+            //Essen wird entfernt
+            essen.forEach(function(item, index, array){
+                if(item == hinzu){
+                    var removedItems = essen.splice(index, 1);
+                    artyom.say("Das Essen " + hinzu + " wurde aus dem Kühlschrank entfernt.");
+                }
+                essen.forEach(function(item, index, array){console.log(item, index);});
+            });
+            //Trinken wird entfernt
+            trinken.forEach(function(item, index, array){
+                if(item == hinzu){
+                    var removedItems = trinken.splice(index, 1);
+                    artyom.say("Das Getränk " + hinzu + " wurde aus dem Kühlschrank entfernt.");
+                }
+                trinken.forEach(function(item, index, array){console.log(item, index);});
+            });
+            hinzu = "";
         }
     },
     {
@@ -147,8 +163,7 @@ var commandGroup =
             if(hinzu == ""){artyom.say("Es wurde nicht definiert um was es sich handelt");}
             
             //Prüfen ob etwas hinzugefügt oder entfernt werden soll
-            else if(addDelete){
-                //Es soll etwas hinzugefügt werden
+            else {
                 //Prüfen ob Essen oder Trinken hinzugefügt werden soll
                 if(i<3){
                     //Essen wird hinzugefügt
@@ -164,31 +179,6 @@ var commandGroup =
                     trinken.forEach(function(item, index, array){console.log(item, index);});
                     hinzu = "";
                 }
-            }
-            else {
-                //Es wird etwas entfernt
-                //Prüfen ob Essen oder Trinken entfernt werden
-                if(i<3){
-                    //Essen wird entfernt
-                    essen.forEach(function(item, index, array){
-                        if(item == hinzu){
-                            var removedItems = essen.splice(index, 1);
-                            artyom.say("Das Essen " + hinzu + " wurde aus dem Kühlschrank entfernt.");
-                        }
-                    essen.forEach(function(item, index, array){console.log(item, index);});
-                    });
-                }
-                else{
-                    //Trinken wird entfernt
-                    trinken.forEach(function(item, index, array){
-                        if(item == hinzu){
-                            var removedItems = trinken.splice(index, 1);
-                            artyom.say("Das Getränk " + hinzu + " wurde aus dem Kühlschrank entfernt.");
-                        }
-                    trinken.forEach(function(item, index, array){console.log(item, index);});
-                    });
-                }
-                hinzu = "";
             }
         }
     }
