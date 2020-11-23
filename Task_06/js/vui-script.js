@@ -28,7 +28,7 @@ var commandGroup = [
     {
         description: "Füge etwas zum Kühlschrank hinzu",
         smart: true,
-        indexes: ["Füge dem Kühlschrank * hinzu", "Füge * zum Kühlschrank hinzu", "Stelle * in den Kühlschrank"],
+        indexes: ["Füge dem Kühlschrank * hinzu", "Füge * zum Kühlschrank hinzu", "Stelle * in den Kühlschrank", "Füge * dem Kühlschrank hinzu"],
         action: function(i, wildcard){
             hinzu = wildcard;
             addDelete = true;
