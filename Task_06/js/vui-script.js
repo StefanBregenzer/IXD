@@ -26,15 +26,6 @@ var commandGroup = [
         };
     },
     {
-        description: "Erstellen einer neuen Aufgabe",
-        smart: true,
-        indexes: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *","brauche die Aufgabe *"],
-        action: function(i, wildcard){
-            artyom.say("Die neue Aufgabe " + wildcard + " wurde für dich erstellt");
-            console.log("Task " + wildcard + " has been created.");
-        };
-    },
-    {
         description: "Füge etwas zum Kühlschrank hinzu",
         smart: true,
         indexes: ["Füge dem Kühlschrank * hinzu", "Füge * zum Kühlschrank hinzu", "Stelle * in den Kühlschrank"],
