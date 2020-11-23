@@ -20,7 +20,7 @@ var commandGroup =
                 artyom.say("Hallo auch.");
             }
             else if(i == 1){
-                artyom.say("Guten Morgen. Wie gehts es dir?");
+                artyom.say("Guten Morgen. Wie geht es dir?");
             }
             else if(i == 2){
                 artyom.say("Hallo.");
