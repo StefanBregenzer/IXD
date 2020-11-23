@@ -11,8 +11,10 @@ var commandGroup = [
     {
         description: "Aus Höflichkeit sagt man guten Tag",
         smart: false,
-        indexes: ["hallo","guten morgen","hey"],
-        action:function(i){
+        indexes: ["hallo",
+                  "guten morgen",
+                  "hey"],
+        action: function(i){
             if(i == 0){
                 artyom.say("Hallo auch.");
             }
@@ -26,9 +28,66 @@ var commandGroup = [
         }
     },
     {
+        description: "Was befindet sich im Kühlschrank",
+        smart: false,
+        indexes: ["Was ist im Kühlschrank?",
+                  "Was ist in Kühlschrank?",
+                  "Was befindet sich im Kühlschrank?",
+                  "Was befindet sich in Kühlschrank?",
+                  "Was habe ich im Kühlschrank?",
+                  "Was habe ich in Kühlschrank?"],
+        action: function(i){
+            artyom.say("Es befinden sich ");
+            inhalt.forEach(function(item, index, array){
+                artyom.say(item);
+            });
+            artyom.say(" im Kühlschrank.");
+        }
+    },
+    {
+        description: "Welches Essen befindet sich im Kühlschrank",
+        smart: false,
+        indexes: ["Was für Essen ist im Kühlschrank?",
+                  "Was für Essen ist in Kühlschrank?",
+                  "Welches Essen befindet sich im Kühlschrank?",
+                  "Welches Essen befindet sich in Kühlschrank?",
+                  "Was habe ich zu essen?",
+                  "Was für Essen habe ich?"],
+        action: function(i){
+            artyom.say("Es befinden sich ");
+            essen.forEach(function(item, index, array){
+                artyom.say(item);
+            });
+            artyom.say(" im Kühlschrank.");
+        }
+    },
+    {
+        description: "Welche Getränke befindet sich im Kühlschrank",
+        smart: false,
+        indexes: ["Was für Getränke sind im Kühlschrank?",
+                  "Was für Getränke sind in Kühlschrank?",
+                  "Welche Getränke befindet sich im Kühlschrank?",
+                  "Welche Getränke befindet sich in Kühlschrank?",
+                  "Was habe ich zu trinken?",
+                  "Was für Getränke habe ich?"],
+        action: function(i){
+            artyom.say("Es befinden sich ");
+            trinken.forEach(function(item, index, array){
+                artyom.say(item);
+            });
+            artyom.say(" im Kühlschrank.");
+        }
+    },
+    {
         description: "Füge etwas zum Kühlschrank hinzu",
         smart: true,
-        indexes: ["Füge dem Kühlschrank * hinzu", "Füge * zum Kühlschrank hinzu", "Stelle * in den Kühlschrank", "Füge * dem Kühlschrank hinzu"],
+        indexes: ["Füge dem Kühlschrank * hinzu",
+                  "Füge den Kühlschrank * hinzu",
+                  "Füge * zum Kühlschrank hinzu",
+                  "Stelle * in den Kühlschrank",
+                  "Stelle * in dem Kühlschrank",
+                  "Füge * dem Kühlschrank hinzu",
+                  "Füge * den Kühlschrank hinzu"],
         action: function(i, wildcard){
             hinzu = wildcard;
             addDelete = true;
@@ -41,7 +100,10 @@ var commandGroup = [
     {
         description: "Entferne etwas aus dem Kühlschrank",
         smart: true,
-        indexes: ["Nehme * aus dem Kühlschrank", "Entferne * aus dem Kühlschrank"],
+        indexes: ["Nehme * aus dem Kühlschrank",
+                  "Nehme * aus den Kühlschrank",
+                  "Entferne * aus dem Kühlschrank",
+                  "Entferne * aus den Kühlschrank"],
         action: function(i, wildcard){
             hinzu = wildcard;
             addDelete = false;
@@ -58,7 +120,12 @@ var commandGroup = [
     {
         description: "Switche zwischen Essen und Trinken",
         smart: false,
-        indexes: ["Essen", "Etwas zu essen", "Zum essen" , "Trinken", "Etwas zu trinken", "Zu trinken"],
+        indexes: ["Essen",
+                  "Etwas zu essen",
+                  "Zum essen",
+                  "Trinken",
+                  "Etwas zu trinken",
+                  "Zu trinken"],
         action: function(i){
             //Prüfen ob hinzu leer ist
             if(hinzu == ""){artyom.say("Es wurde nicht definiert um was es sich handelt");}
