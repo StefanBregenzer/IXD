@@ -37,11 +37,16 @@ var commandGroup = [
                   "Was habe ich im Kühlschrank?",
                   "Was habe ich in Kühlschrank?"],
         action: function(i){
-            artyom.say("Es befinden sich ");
-            inhalt.forEach(function(item, index, array){
-                artyom.say(item);
-            });
-            artyom.say(" im Kühlschrank.");
+            if(inhalt.length == 0){
+                artyom.say("Der Kühlschrank ist leer.");
+            }
+            else{
+                artyom.say("Es befinden sich ");
+                inhalt.forEach(function(item, index, array){
+                    artyom.say(item);
+                });
+                artyom.say(" im Kühlschrank.");
+            }
         }
     },
     {
@@ -54,11 +59,16 @@ var commandGroup = [
                   "Was habe ich zu essen?",
                   "Was für Essen habe ich?"],
         action: function(i){
-            artyom.say("Es befinden sich ");
-            essen.forEach(function(item, index, array){
-                artyom.say(item);
-            });
-            artyom.say(" im Kühlschrank.");
+            if(essen.length == 0){
+                artyom.say("Im Kühlschrank ist kein Essen.");
+            }
+            else{
+                artyom.say("Es befinden sich ");
+                essen.forEach(function(item, index, array){
+                    artyom.say(item);
+                });
+                artyom.say(" im Kühlschrank.");
+            }
         }
     },
     {
@@ -71,11 +81,16 @@ var commandGroup = [
                   "Was habe ich zu trinken?",
                   "Was für Getränke habe ich?"],
         action: function(i){
-            artyom.say("Es befinden sich ");
-            trinken.forEach(function(item, index, array){
-                artyom.say(item);
-            });
-            artyom.say(" im Kühlschrank.");
+            if(trinken.length == 0){
+                artyom.say("Im Kühlschrank sind keine Getränke.");
+            }
+            else{
+                artyom.say("Es befinden sich ");
+                trinken.forEach(function(item, index, array){
+                    artyom.say(item);
+                });
+                artyom.say(" im Kühlschrank.");
+            }
         }
     },
     {
