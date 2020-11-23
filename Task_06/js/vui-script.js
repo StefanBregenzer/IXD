@@ -75,7 +75,7 @@ var commandGroup = [
                 else {
                     //Trinken wird hinzugefügt
                     var newDrink = trinken.push(hinzu);
-                    artyom.say(hinzu + " wurde dem Kühlschrank als Trinken hinzugefügt.");
+                    artyom.say(hinzu + " wurde dem Kühlschrank als Getränk hinzugefügt.");
                     trinken.forEach(function(item, index, array){console.log(item, index);});
                     hinzu = "";
                 }
