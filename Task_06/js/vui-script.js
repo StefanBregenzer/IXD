@@ -5,16 +5,24 @@ var commandGroup = [
         description: "Aus Höflichkeit sagt man guten Tag",
         smart: false,
         indexes: ["hallo","guten morgen","hey"],
-        action:function(){
-            artyom.say("Hallo ! Wie geht es dir heute?");
+        action:function(i){
+            if(i == 0){
+                artyom.say("Hallo auch.");
+            }
+            else if(i == 1){
+                artyom.say("Guten Morgen. Wie gehts es dir?");
+            }
+            else if(i == 2){
+                artyom.say("Hallo.");
+            }
             console.log("commandHello");
         }
     },
     {
         description: "Erstellen einer neuen Aufgabe",
         smart: true,
-        indexed: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *"],
-        action: function(wildcard){
+        indexed: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *","brauche die Aufgabe *"],
+        action: function(i, wildcard){
             artyom.say("Die neue Aufgabe " + wildcard + " wurde für dich erstellt");
             console.log("Task " + wildcard + " has been created.");
         }
