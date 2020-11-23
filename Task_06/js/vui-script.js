@@ -31,6 +31,7 @@ var commandGroup = [
         indexes: ["Füge dem Kühlschrank * hinzu", "Füge * zum Kühlschrank hinzu", "Stelle * in den Kühlschrank"],
         action: function(i, wildcard){
             hinzu = wildcard;
+            addDelete = true;
             console.log(hinzu + " will be added");
             var newInhalt = inhalt.push(wildcard);
             inhalt.forEach(function(item, index, array){console.log(item, index);});
@@ -43,6 +44,7 @@ var commandGroup = [
         indexes: ["Nehme * aus dem Kühlschrank", "Entferne * aus dem Kühlschrank"],
         action: function(i, wildcard){
             hinzu = wildcard;
+            addDelete = false;
             console.log(hinzu + " will be removed");
             inhalt.forEach(function(item, index, array){
                 if(item == hinzu){ 
