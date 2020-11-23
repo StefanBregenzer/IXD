@@ -43,6 +43,7 @@ function startContinuousArtyom() {
         }).then(function () {
             console.log("Ready!");
             artyom.say("Möchtest du etwas bestimmtes?");
+            consloe.log("And ready again!");
         });
     }, 250);
 };
