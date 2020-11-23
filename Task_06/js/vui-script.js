@@ -14,7 +14,7 @@ var commandGroup = [
         description: "Erstellen einer neuen Aufgabe",
         smart: true,
         indexed: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *"],
-        action: function(i,wildcard){
+        action: function(wildcard){
             artyom.say("Die neue Aufgabe " + wildcard + " wurde für dich erstellt");
             console.log("Task " + wildcard + " has been created.");
         }
