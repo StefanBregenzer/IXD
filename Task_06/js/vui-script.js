@@ -7,7 +7,8 @@ var trinken = [];
 var hinzu = "";
 var addDelete = true;
 
-var commandGroup = [
+var commandGroup = 
+[
     {
         description: "Aus Höflichkeit sagt man guten Tag",
         smart: false,
@@ -30,12 +31,12 @@ var commandGroup = [
     {
         description: "Was befindet sich im Kühlschrank",
         smart: false,
-        indexes: ["Was ist im Kühlschrank?",
-                  "Was ist in Kühlschrank?",
-                  "Was befindet sich im Kühlschrank?",
-                  "Was befindet sich in Kühlschrank?",
-                  "Was habe ich im Kühlschrank?",
-                  "Was habe ich in Kühlschrank?"],
+        indexes: ["Was ist im Kühlschrank",
+                  "Was ist in Kühlschrank",
+                  "Was befindet sich im Kühlschrank",
+                  "Was befindet sich in Kühlschrank",
+                  "Was habe ich im Kühlschrank",
+                  "Was habe ich in Kühlschrank"],
         action: function(i){
             if(inhalt.length == 0){
                 artyom.say("Der Kühlschrank ist leer.");
@@ -52,12 +53,12 @@ var commandGroup = [
     {
         description: "Welches Essen befindet sich im Kühlschrank",
         smart: false,
-        indexes: ["Was für Essen ist im Kühlschrank?",
-                  "Was für Essen ist in Kühlschrank?",
-                  "Welches Essen befindet sich im Kühlschrank?",
-                  "Welches Essen befindet sich in Kühlschrank?",
-                  "Was habe ich zu essen?",
-                  "Was für Essen habe ich?"],
+        indexes: ["Was für Essen ist im Kühlschrank",
+                  "Was für Essen ist in Kühlschrank",
+                  "Welches Essen befindet sich im Kühlschrank",
+                  "Welches Essen befindet sich in Kühlschrank",
+                  "Was habe ich zu essen",
+                  "Was für Essen habe ich"],
         action: function(i){
             if(essen.length == 0){
                 artyom.say("Im Kühlschrank ist kein Essen.");
@@ -74,12 +75,12 @@ var commandGroup = [
     {
         description: "Welche Getränke befindet sich im Kühlschrank",
         smart: false,
-        indexes: ["Was für Getränke sind im Kühlschrank?",
-                  "Was für Getränke sind in Kühlschrank?",
-                  "Welche Getränke befindet sich im Kühlschrank?",
-                  "Welche Getränke befindet sich in Kühlschrank?",
-                  "Was habe ich zu trinken?",
-                  "Was für Getränke habe ich?"],
+        indexes: ["Was für Getränke sind im Kühlschrank",
+                  "Was für Getränke sind in Kühlschrank",
+                  "Welche Getränke befindet sich im Kühlschrank",
+                  "Welche Getränke befindet sich in Kühlschrank",
+                  "Was habe ich zu trinken",
+                  "Was für Getränke habe ich"],
         action: function(i){
             if(trinken.length == 0){
                 artyom.say("Im Kühlschrank sind keine Getränke.");
