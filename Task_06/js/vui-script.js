@@ -2,18 +2,18 @@ window.addEventListener("load", function () {
     var artyom = new Artyom();
     
     var commandHello = {
-    indexes:["hello","good morning","hey"], // These spoken words will trigger the execution of the command
+    indexes:["hallo","guten morgen","hey"], // These spoken words will trigger the execution of the command
     action:function(){ // Action to be executed when a index match with spoken word
-        artyom.say("Hey buddy ! How are you today?");
+        artyom.say("Hallo ! Wie geht es dir heute?");
         console.log("commandHello");
         }
     };
     
     var commandAufgabe = {
-        indexed: ["create task *","need task *","create the task *"],
+        indexed: ["erstelle Aufgabe *","brauche Aufgabe *","erstelle die Aufgabe *"],
         smart: true,
         action: function(i,wildcard){
-            artyom.say("The new task " + wildcard + " has been created");
+            artyom.say("Die neue Aufgabe " + wildcard + " wurde für dich erstellt");
             console.log("Task " + wildcard + " has been created.");
         }
     };
