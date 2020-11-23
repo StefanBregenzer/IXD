@@ -23,7 +23,7 @@ var commandGroup = [
                 artyom.say("Hallo.");
             }
             console.log("commandHello");
-        };
+        }
     },
     {
         description: "Füge etwas zum Kühlschrank hinzu",
@@ -35,7 +35,7 @@ var commandGroup = [
             var newInhalt = inhalt.push(wildcard);
             inhalt.forEach(function(item, index, array){console.log(item, index);});
             artyom.say("Handelt es sich um etwas zu essen oder zu trinken?");
-        };
+        }
     },
     {
         description: "Entferne etwas aus dem Kühlschrank",
@@ -51,7 +51,7 @@ var commandGroup = [
                 inhalt.forEach(function(item, index, array){console.log(item, index);});
             });
             artyom.say("Handelt es sich um etwas zu essen oder zu trinken?");
-        };
+        }
     },
     {
         description: "Switche zwischen Essen und Trinken",
@@ -105,7 +105,7 @@ var commandGroup = [
                 }
                 hinzu = "";
             }
-        };
+        }
     }
 ];
 
@@ -116,7 +116,7 @@ function startup() {
     artyom.addCommands(commandGroup);
     
     startContinuousArtyom();
-};
+}
     
 function startContinuousArtyom() {
     artyom.fatality();
@@ -134,4 +134,4 @@ function startContinuousArtyom() {
             consloe.log("And ready again!");
         });
     }, 250);
-};
+}
