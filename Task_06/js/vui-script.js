@@ -31,6 +31,16 @@ var commandGroup =
         }
     },
     {
+        description: "Timer stellen",
+        smart: true,
+        indexes: ["Stelle einen Wecker auf * Uhr",
+                  "Stelle einen Timer auf * Uhr",
+                  "Erinnere mich um * Uhr"],
+        action: function(i,wildcard){
+            artyom.say("Ein Wecker wurde auf " + wildcard + "Uhr gestellt.");
+        }
+    },
+    {
         description: "Was befindet sich im Kühlschrank",
         smart: false,
         indexes: ["Was ist im Kühlschrank",
