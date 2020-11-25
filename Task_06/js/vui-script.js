@@ -34,7 +34,9 @@ var commandGroup =
         description: "Timer stellen",
         smart: true,
         indexes: ["Stelle einen Wecker auf * Uhr",
+                  "Stelle einem Wecker auf * Uhr",
                   "Stelle einen Timer auf * Uhr",
+                  "Stelle einem Timer auf * Uhr",
                   "Erinnere mich um * Uhr"],
         action: function(i,wildcard){
             artyom.say("Ein Wecker wurde auf " + wildcard + "Uhr gestellt.");
