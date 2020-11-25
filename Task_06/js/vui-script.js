@@ -4,6 +4,8 @@ var inhalt = [];
 var essen = [];
 var trinken = [];
 
+var einkaufszettel = [];
+
 var hinzu = "";
 var addDelete = true;
 
@@ -92,6 +94,36 @@ var commandGroup =
                 });
                 artyom.say(" im Kühlschrank.");
             }
+        }
+    },
+    {
+        description: "Erstelle einen Einkaufszettel",
+        smart: false,
+        indexes: ["Erstelle einen Einkaufszettel",
+                  "Erstelle einem Einkaufszettel",
+                 "Erstelle einen neuen Einkaufszettel",
+                 "Erstelle einem neuen Einkaufszettel",],
+        action: function(i){
+            einkaufszettel = [];
+            console.log("Einkaufszettel erstellt");
+            artyom.say("Die Liste mit dem Namen Einkaufszettel wurde erstellt. Soll ich dieser Liste etwas hinzufügen?");
+        }
+    },
+    {
+        description: "Füge etwas zum Einkaufszettel hinzu",
+        smart: true,
+        indexes: ["Füge dem Einkaufszettel * hinzu",
+                  "Füge den Einkaufszettel * hinzu",
+                  "Füge * zum Einkaufszettel hinzu",
+                  "Vermerke * auf dem Einkaufszettel",
+                  "Vermerke * auf den Einkaufszettel",
+                  "Füge * dem Einkaufszettel hinzu",
+                  "Füge * den Einkaufszettel hinzu"],
+        action: function(i, wildcard){
+            console.log(wildcard + " will be added");
+            var newInhalt = einkaufszettel.push(wildcard);
+            einkaufszettel.forEach(function(item, index, array){console.log(item, index);});
+            artyom.say(wildcard + "wurde der Liste Einkaufszettel hinzugefügt. Soll ich noch etwas hinzufügen?");
         }
     },
     {
