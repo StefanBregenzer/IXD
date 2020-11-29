@@ -7,7 +7,6 @@ var trinken = ["Cola","Milch"];
 var einkaufszettel = [];
 
 var hinzu = "";
-var addDelete = true;
 
 var commandGroup = 
 [
@@ -139,6 +138,28 @@ var commandGroup =
         }
     },
     {
+        description: "Entferne etwas vom dem Einkaufszettel",
+        smart: true,
+        indexes: ["Nehme * vom Einkaufszettel",
+                  "Nehme * von Einkaufszettel",
+                  "Entferne * vom dem Einkaufszettel",
+                  "Entferne * vom den Einkaufszettel",
+                  "Entferne * von dem Einkaufszettel",
+                  "Entferne * von den Einkaufszettel"],
+        action: function(i, wildcard){
+            hinzu = wildcard;
+            console.log(hinzu + " will be removed");
+            einkaufszettel.forEach(function(item, index, array){
+                if(item == hinzu){ 
+                    var removedItems = einkaufszettel.splice(index, 1);
+                    artyom.say(wildcard + " wurde vom Einkaufszettel entfernt");
+                }
+                einkaufszettel.forEach(function(item, index, array){console.log(item, index);});
+            });
+            hinzu = "";
+        }
+    },
+    {
         description: "Füge etwas zum Kühlschrank hinzu",
         smart: true,
         indexes: ["Füge dem Kühlschrank * hinzu",
@@ -150,7 +171,6 @@ var commandGroup =
                   "Füge * den Kühlschrank hinzu"],
         action: function(i, wildcard){
             hinzu = wildcard;
-            addDelete = true;
             console.log(hinzu + " will be added");
             var newInhalt = inhalt.push(wildcard);
             inhalt.forEach(function(item, index, array){console.log(item, index);});
@@ -166,7 +186,6 @@ var commandGroup =
                   "Entferne * aus den Kühlschrank"],
         action: function(i, wildcard){
             hinzu = wildcard;
-            addDelete = false;
             console.log(hinzu + " will be removed");
             inhalt.forEach(function(item, index, array){
                 if(item == hinzu){ 
