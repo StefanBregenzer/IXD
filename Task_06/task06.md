@@ -24,6 +24,6 @@
   Um eine freie Konversation zu ermöglichen, ist kein geregelter Ablauf der Konversation vorgegeben. Jedes Kommando kann zu jeder Zeit gegeben werden.
   Es wurden unterschiedliche Möglichkeiten im Satzbau für jedes Kommando festgelegt, sodass der User in seiner Wortwahl möglichst wenig eingeschränkt wird und die VUI ihn schnell und zuverlässig versteht. Um die Zuverlässigkeit der Spracherkennung zu verbessern wurde zusätzlich noch die Verwechslung von "dem" und "den" und ähnlichen Fehlern in der Spracherkennung berücksichtigt.<br>
   Da der Einkaufszettel eigentlich direkt als Liste auf dem Smartphone erstellt werden sollte, muss der Inhalt der Liste nicht unbedingt vorgelesen werden können, sondern nur geändert werden.<br>
-  
+  <br>
 
 <a href="vui.html"><b>Öffne den Kühlschrank</b></a>
