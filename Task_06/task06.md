@@ -16,7 +16,7 @@
   Funktionalität die von der VUI verlangt wird:<br>
   - Kühlschrank füllen/leeren<br>
   - Informationen zum Inhalt des Kühlschranks geben<br>
-  - Einkaufszettel erstellen<br>
+  - Einkaufszettel erstellen und bearbeiten<br>
   - Wecker/Erinnerung stellen<br>
   <br>
   Um die Funktionalität umzusetzen werden 4 Listen für den Gesamtinhalt, Getränke, Essen und den Einkaufszettel geführt.<br>
