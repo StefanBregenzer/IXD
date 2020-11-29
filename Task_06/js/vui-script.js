@@ -1,8 +1,8 @@
 var artyom = new Artyom();
 
-var inhalt = [];
-var essen = [];
-var trinken = [];
+var inhalt = ["Salami","Cola","Butter","Lauch","Milch"];
+var essen = ["Salami","Butter","Lauch"];
+var trinken = ["Cola","Milch"];
 
 var einkaufszettel = [];
 
