@@ -261,6 +261,14 @@ function startButton() {
 artyom.say("Möchtest du etwas bestimmtes?");
 
 }
+
+artyom.redirectRecognizedTextOutput(function(recognized,isFinal){
+if(isFinal){
+document.getElementById("understanded").value = recognized;
+}else{
+document.getElementById("understanded").value = recognized;
+}
+});
     
 function startContinuousArtyom() {
     artyom.fatality();
