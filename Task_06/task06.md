@@ -30,4 +30,4 @@
   Da der Einkaufszettel eigentlich direkt als Liste auf dem Smartphone erstellt werden sollte, muss der Inhalt der Liste nicht unbedingt vorgelesen werden können, sondern nur geändert werden.<br>
   <br>
 
-<a href="vui.html"><b>Öffne den Kühlschrank</b></a>
+<a href="vui.html"><b>Hier geht's zur VUI</b></a>
