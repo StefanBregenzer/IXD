@@ -255,6 +255,12 @@ function startup() {
     
     startContinuousArtyom();
 }
+
+function startButton() {
+
+artyom.say("Möchtest du etwas bestimmtes?");
+
+}
     
 function startContinuousArtyom() {
     artyom.fatality();
