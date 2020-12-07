@@ -30,6 +30,6 @@
 
 ---
 
-[Task06](Task_07/task07.md)
+[Task07](Task_07/task07.md)
 
 ---
