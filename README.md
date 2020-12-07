@@ -29,3 +29,7 @@
 [Task06](Task_06/task06.md)
 
 ---
+
+[Task06](Task_07/task07.md)
+
+---
