@@ -1,6 +1,6 @@
 ## Task #07
 <br>
-<h3>testing</h3>
+<h3>Testing</h3>
 <br>
   <video controls loop>
       <source src="TestResults.mp4" type="video/mp4">
