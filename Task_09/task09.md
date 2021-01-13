@@ -25,5 +25,7 @@ Um den Rundenablauf beliebig widerholen zu können, lasse ich den Loop des ESP k
 Für den Ablauf einer einzelnen Runde habe ich eine extra Methode geschrieben, die eine zufällige LED ansteuert, den Reaktionstest ausführt und direkt das Ergebnis zurück gibt. Diese rufe ich dann ein Mal im Loop auf. Damit steht bei einem laufenden Spiel ein Durchlauf des Loops für genau eine Runde.
 <img src="img/Turn.PNG" class="img-responsive" alt=""><br>
 <h3>Hardware</h3>
-Neben dem ESP und einigen Kabeln brauche ich für die Elektronik noch die drei LEDs, den Buzzer und eine Steckplatine.
+Neben dem ESP und einigen Kabeln brauche ich für die Elektronik noch die drei LEDs, den Buzzer und eine Steckplatine. Außerdem dient der Bildschirm meines PC als vorläufiger Display.
 <img src="img/Electronic.jpg" class="img-responsive" alt=""><br>
+Das Gehäuse halte ich im Stil eines alten Arcade Automaten und baue es aus Karton. Um zuverlässige Buttons zu haben, die sich nicht abnutzen, verwende ich Alufolie.
+<img src="img/Material.jpg" class="img-responsive" alt=""><br>
