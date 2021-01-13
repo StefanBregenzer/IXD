@@ -27,5 +27,5 @@ Für den Ablauf einer einzelnen Runde habe ich eine extra Methode geschrieben, d
 <h3>Hardware</h3>
 Neben dem ESP und einigen Kabeln brauche ich für die Elektronik noch die drei LEDs, den Buzzer und eine Steckplatine. Außerdem dient der Bildschirm meines PC als vorläufiger Display.
 <img src="img/Electronic.jpg" class="img-responsive" alt=""><br>
-Das Gehäuse halte ich im Stil eines alten Arcade Automaten und baue es aus Karton. Um zuverlässige Buttons zu haben, die sich nicht abnutzen, verwende ich Alufolie.
+Das Gehäuse halte ich im Stil eines alten Arcade Automaten und baue es aus Karton. Um zuverlässige Buttons zu haben, die sich nicht abnutzen, verwende ich Alufolie. Diese befestige ich dann einfach mit Paketband am Karton.
 <img src="img/Material.jpg" class="img-responsive" alt=""><br>
