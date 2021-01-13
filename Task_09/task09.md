@@ -1,6 +1,7 @@
 ## Task #09
 <br>
 <h1>Erstellen eines <b>Reaktions Spiels</b></h1><br>
+<img src="img/Setup.jpg" class="img-responsive" alt=""><br>
 <h2>Aufgabe</h2>
 Das Ziel dieser Aufgabe ist es, eine interessante Interaktion zu entwerfen, unter Zuhilfenahme eines ESP32. Ich habe mich dafür entschieden, ein Spiel zu kreieren, welches auf der Reaktionsschnelligkeit des Spielers beruht.<br>
 <br>
@@ -29,3 +30,9 @@ Neben dem ESP und einigen Kabeln brauche ich für die Elektronik noch die drei L
 <img src="img/Electronic.jpg" class="img-responsive" alt=""><br>
 Das Gehäuse halte ich im Stil eines alten Arcade Automaten und baue es aus Karton. Um zuverlässige Buttons zu haben, die sich nicht abnutzen, verwende ich Alufolie. Diese befestige ich dann einfach mit Paketband am Karton.
 <img src="img/Material.jpg" class="img-responsive" alt=""><br>
+<h2>Ergebnis</h2>
+ <video controls loop>
+     <source src="Playtest.mp4" type="video/mp4">
+ Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+ Sie können es <a href="SmartwatchProto.mp4">hier</a> abrufen.
+ </video>
