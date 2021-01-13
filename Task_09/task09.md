@@ -20,3 +20,5 @@ Außerdem müssen die Pins, die die LEDs und den Buzzer mit Strom versorgen als 
 <img src="img/Setup.PNG" class="img-responsive" alt=""><br>
 Um eine einfache Methode zu haben, eine bestimmte LED ein- und auszuschalten, habe ich direkt eine Funktion dafür geschrieben, die ich dann nach belieben im Skript aufrufen kann. Da der Buzzer immer gleichzeitig mit den LEDs an ist, habe ich ihn auch direkt in die Funktion integriert.
 <img src="img/LedOnOff.PNG" class="img-responsive" alt=""><br>
+Um den Rundenablauf beliebig widerholen zu können, lasse ich den Loop des ESP konstant laufen, auch wenn das Spiel noch nicht beendet ist. Dafür brauche ich allerdings eine extra Abfrage, ob das Spiel am laufen ist, sodass ich den Spieler per Touch Eingabe das Spiel starten lassen kann. Da die Touch Inputs des ESP ab und zu einen fehlerhaften Wert ausgeben, brauchte ich zusätzlich noch eine Variable mit der ich testen konnte, ob der Touch Input über mehrere Frames passiert. Das wird jetzt mit einem einfachen Boolean geprüft.
+<img src="img/Loop.PNG" class="img-responsive" alt=""><br>
