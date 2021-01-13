@@ -33,7 +33,7 @@ Das Gehäuse halte ich im Stil eines alten Arcade Automaten und baue es aus Kart
 <h2>Ergebnis</h2>
 <img src="img/Result.jpg" class="img-responsive" alt=""><br>
  <video controls loop>
-     <source src="Playtest.mp4" type="video/mp4">
+     <source src="img/Playtest.mp4" type="video/mp4">
  Ihr Browser kann dieses Video nicht wiedergeben.<br/>
  Sie können es <a href="Playtest.mp4">hier</a> abrufen.
  </video>
