@@ -17,4 +17,4 @@ Mit diesem simplen Aufbau und Skript konnte ich einen Reaktionstest realisieren,
 Um die unterschiedlichen LEDs, den Buzzer, die Touchinputs und die Spielfunktionen wie das Tracken der Rundenzahl musste ich viele neue Varablen deklarieren, die ich zum reinen Messen der Reaktionszeit noch nicht gebraucht hatte.<br>
 <img src="img/Variables.PNG" class="img-responsive" alt=""><br>
 Außerdem müssen die Pins, die die LEDs und den Buzzer mit Strom versorgen als Output gekennzeichnet sein. Da diese Kennzeichnung bei den Touch Inputs, die ich beim Testen gebraucht habe nicht notwenidig war, wusste ich erst nichts davon. Daher haben die LEDs und der Buzzer überhaupt nicht funktioniert und ich musste erst nach der Fehlerquelle suchen.
-<img src="img/Setup.PNG class="img-responsive" alt=""><br>
+<img src="img/Setup.PNG" class="img-responsive" alt=""><br>
