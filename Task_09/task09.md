@@ -12,6 +12,6 @@ Da ich bisher noch nie mit einem ESP oder Arduino gearbeitet habe, möchte ich a
 <b>hier Bild des Aufbaus</b>
 <img src="img/ReactionTestCode.PNG" class="img-responsive" alt=""><br>
 Mit diesem simplen Aufbau und Skript konnte ich einen Reaktionstest realisieren, der die Reaktionszeit des Users in Millisekunden ausgibt. Nach einer zufälligen Zeit zwischen 5 und 15 Sekunden wird der User aufgefordert, den Button zu berühren. Anschließend die Zeit von der Aufforderung bis zur Berührung gemessen und ausgegeben.<br>
-<h2>Entwicklung des Spiels</h2><br>
+<h2>Entwicklung des Spiels</h2>
 <h3>Software</h3>
 Um die unterschiedlichen LEDs, den Buzzer, die Touchinputs und die Spielfunktionen wie das Tracken der Rundenzahl musste ich viele neue Varablen deklarieren, die ich zum reinen Messen der Reaktionszeit noch nicht gebraucht hatte.<br>
