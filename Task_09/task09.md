@@ -34,5 +34,5 @@ Das Gehäuse halte ich im Stil eines alten Arcade Automaten und baue es aus Kart
  <video controls loop>
      <source src="Playtest.mp4" type="video/mp4">
  Ihr Browser kann dieses Video nicht wiedergeben.<br/>
- Sie können es <a href="SmartwatchProto.mp4">hier</a> abrufen.
+ Sie können es <a href="Playtest.mp4">hier</a> abrufen.
  </video>
