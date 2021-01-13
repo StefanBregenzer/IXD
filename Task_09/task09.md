@@ -22,5 +22,8 @@ Um eine einfache Möglichkeit zu haben, eine bestimmte LED ein- und auszuschalte
 <img src="img/LedOnOff.PNG" class="img-responsive" alt=""><br>
 Um den Rundenablauf beliebig widerholen zu können, lasse ich den Loop des ESP konstant laufen, auch wenn das Spiel noch nicht beendet ist. Dafür brauche ich allerdings eine extra Abfrage, ob das Spiel am laufen ist, sodass ich den Spieler per Touch Eingabe das Spiel starten lassen kann. Da die Touch Inputs des ESP ab und zu einen fehlerhaften Wert ausgeben, brauchte ich zusätzlich noch eine Variable, mit der ich testen konnte, ob der Touch Input über mehrere Frames passiert. Das wird jetzt mit einem einfachen Boolean geprüft.
 <img src="img/Loop.PNG" class="img-responsive" alt=""><br>
-Für den Ablauf einer einzelnen Runde habe ich eine extra Methode geschrieben, die eine zufällige LED ansteuert, den Reaktionstest ausführt und direkt das Ergebnis zurück gibt.
+Für den Ablauf einer einzelnen Runde habe ich eine extra Methode geschrieben, die eine zufällige LED ansteuert, den Reaktionstest ausführt und direkt das Ergebnis zurück gibt. Diese rufe ich dann ein Mal im Loop auf. Damit steht bei einem laufenden Spiel ein Durchlauf des Loops für genau eine Runde.
 <img src="img/Turn.PNG" class="img-responsive" alt=""><br>
+<h3>Hardware</h3>
+Neben dem ESP und einigen Kabeln brauche ich für die Elektronik noch die drei LEDs, den Buzzer und eine Steckplatine.
+<img src="img/Electronic.jpg" class="img-responsive" alt=""><br>
