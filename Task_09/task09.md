@@ -18,7 +18,9 @@ Um die unterschiedlichen LEDs, den Buzzer, die Touchinputs und die Spielfunktion
 <img src="img/Variables.PNG" class="img-responsive" alt=""><br>
 Außerdem müssen die Pins, die die LEDs und den Buzzer mit Strom versorgen als Output gekennzeichnet sein. Da diese Kennzeichnung bei den Touch Inputs, die ich beim Testen gebraucht habe nicht notwenidig war, wusste ich erst nichts davon. Daher haben die LEDs und der Buzzer überhaupt nicht funktioniert und ich musste erst nach der Fehlerquelle suchen.
 <img src="img/Setup.PNG" class="img-responsive" alt=""><br>
-Um eine einfache Methode zu haben, eine bestimmte LED ein- und auszuschalten, habe ich direkt eine Funktion dafür geschrieben, die ich dann nach belieben im Skript aufrufen kann. Da der Buzzer immer gleichzeitig mit den LEDs an ist, habe ich ihn auch direkt in die Funktion integriert.
+Um eine einfache Möglichkeit zu haben, eine bestimmte LED ein- und auszuschalten, habe ich direkt eine Methode dafür geschrieben, die ich dann nach belieben im Skript aufrufen kann. Da der Buzzer immer gleichzeitig mit den LEDs an ist, habe ich ihn auch direkt in die Methode integriert.
 <img src="img/LedOnOff.PNG" class="img-responsive" alt=""><br>
 Um den Rundenablauf beliebig widerholen zu können, lasse ich den Loop des ESP konstant laufen, auch wenn das Spiel noch nicht beendet ist. Dafür brauche ich allerdings eine extra Abfrage, ob das Spiel am laufen ist, sodass ich den Spieler per Touch Eingabe das Spiel starten lassen kann. Da die Touch Inputs des ESP ab und zu einen fehlerhaften Wert ausgeben, brauchte ich zusätzlich noch eine Variable, mit der ich testen konnte, ob der Touch Input über mehrere Frames passiert. Das wird jetzt mit einem einfachen Boolean geprüft.
 <img src="img/Loop.PNG" class="img-responsive" alt=""><br>
+Für den Ablauf einer einzelnen Runde habe ich eine extra Methode geschrieben, die eine zufällige LED ansteuert, den Reaktionstest ausführt und direkt das Ergebnis zurück gibt.
+<img src="img/Turn.PNG" class="img-responsive" alt=""><br>
