@@ -10,4 +10,5 @@ Das Spiel besteht aus 3 unterschiedlich farbigen LEDs und jeweils einem zugehör
 <h3>Testphase</h3>
 Da ich bisher noch nie mit einem ESP oder Arduino gearbeitet habe, möchte ich als ersten Test, um mit der Funktionsweise vertraut zu werden, einen generellen Reaktionstest bauen. Dafür brauche ich nur einen Button und den ESP32. Dieser Test dient auch dazu, direkt die wichtigste Funktion des Spiels, das Messen der Reaktionszeit, zu testen.<br>
 <b>hier Bild des Aufbaus</b>
-<img src="img/ReactionTestCode.PNG" class="img-responsive" alt="">
+<img src="img/ReactionTestCode.PNG" class="img-responsive" alt=""><br>
+Mit diesem simplen Aufbau und Skript konnte ich einen Reaktionstest realisieren, der die Reaktionszeit des Users in Millisekunden ausgibt.
