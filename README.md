@@ -43,7 +43,7 @@ Konzipieren einer Interaktion mit ESP32
 
 ---
 
-<img src="Task_09/setup.jpg" alt="Teaser" width=100/><br>
+<img src="Task_09/img/Setup.jpg" alt="Teaser" width=100/><br>
 [<b>IoT Umsetzung</b>](Task_09/task09.md)<br>
 Entwickeln eines Reaktionsspiels
 
