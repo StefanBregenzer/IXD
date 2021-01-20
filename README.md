@@ -16,7 +16,11 @@ Design eines App-Prototypen
 
 ---
 
-[Task03](Task_03/task03.md)
+<video width="100" controls loop>
+  <source src="Task_03/SmartwatchProto.mp4" type="video/mp4">
+</video><br>
+[<b>Responsive Design</b>](Task_03/task03.md)<br>
+Design einer Smartwatch und Tablet Variante
 
 ---
 
