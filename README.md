@@ -2,7 +2,7 @@
 
 ---
 
-**[Wallet Projekt](Task_01/task01.md)**<br>
+![Teaser](/Task_01/IMG5.jpg)**[Wallet Projekt](Task_01/task01.md)**<br>
 Design eines individualisierten Geldbeutels
 
 ---
