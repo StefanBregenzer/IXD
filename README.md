@@ -8,7 +8,11 @@ Design eines individualisierten Geldbeutels
 
 ---
 
-[Task02](Task_02/task02.md)
+<video width="50" controls loop>
+  <source src="Task_02/preview.mp4" type="video/mp4">
+</video>
+[<b>GUI</b>](Task_02/task02.md)<br>
+Design eines App-Prototypen
 
 ---
 
