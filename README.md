@@ -2,7 +2,7 @@
 
 ---
 
-![Teaser](/Task_01/IMG5.jpg)**[Wallet Projekt](Task_01/task01.md)**<br>
+<img src="Task_01/IMG5.jpg" alt="Teaser" width=50/>**<br>
 Design eines individualisierten Geldbeutels
 
 ---
