@@ -38,6 +38,7 @@ Probandentests zum Vergleich von VUIs
 
 ---
 
+<img src="Task_09/img/TestSetup.jpg" alt="Teaser" width=100/><br>
 [<b>IoT Koncept</b>](Task_08/task08.md)<br>
 Konzipieren einer Interaktion mit ESP32<br>
 <br>
